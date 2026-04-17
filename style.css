@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════
-   VAISHALI GUPTA — PORTFOLIO  style.css
+   PRIYSHA — PORTFOLIO  style.css
    ══════════════════════════════════════════ */
 
 /* ── VARIABLES ── */
@@ -208,13 +208,12 @@ nav {
   display: inline-block;
   padding: 0.75rem 2rem;
   border-radius: 8px;
-  background: transparent;
-  border: 1px solid var(--border);
-  color: var(--text);
+  background: linear-gradient(135deg, var(--accent), #8b5cf6);
+  color: #fff;
   font-weight: 600;
   font-size: 0.9rem;
-  cursor: pointer;
-  transition: border-color 0.2s, color 0.2s, transform 0.2s;
+  border: none; cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s;
   font-family: 'Inter', sans-serif;
 }
 .btn-outline:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
