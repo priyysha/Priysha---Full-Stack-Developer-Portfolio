@@ -222,7 +222,7 @@ nav {
 .hero-image-wrap { flex-shrink: 0; }
 
 .hero-image-ring {
-  width: 240px; height: 240px;
+  width: 375px; height: 375px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--accent), #ec4899, var(--teal));
   padding: 3px;
